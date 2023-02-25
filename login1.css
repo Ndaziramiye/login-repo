@@ -1,0 +1,119 @@
+
+.div2{
+    display: block;
+    background: rgb(255, 194, 171);
+    height: 9cm;
+    width: 9cm;
+    border-radius: 6px;
+    line-height: 1.5;
+    box-shadow:3px 3px 6px 3px rgb(168, 160, 160);
+
+}
+
+.div3{
+display: none;
+background: rgb(232, 171, 149);
+height: 12cm;
+width: 11cm;
+border-radius: 6px;
+line-height: 1.5;
+box-shadow:3px 3px 6px 3px rgb(168, 160, 160);
+}
+.container{
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+   /* background: rgb(124, 133, 136);*/
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    opacity:1;
+    display: flex;
+    justify-items: space-between;
+}
+.p-lform{
+font-size: 25px;
+text-align: center;
+margin-top: 0.5cm;
+    }
+.llabel{
+font-size: 21px;
+text-align: center;
+font-size: 19px;
+ }
+.button{
+    text-align: center;
+    }
+.forgot{
+text-align: center;
+font-size: 19px;
+}
+.action{
+    text-align: center;
+    font-size: 19px;
+    line-height: 2; 
+    margin-top: 0.7cm;
+}
+.linput{
+    font-size: 17px;
+    border-radius: 5px;
+    border-color:rgb(233, 227, 227);
+    border-width: 0.2px;
+    height: 30px;
+    width: 220px;
+    }
+        #login{
+            background: rgb(175, 172, 172);
+            font-size: 17px;
+            border-radius: 5px;
+            border-color: rgb(177, 183, 188);
+            height: 0.9cm;
+            width: 2.5cm;
+            cursor: pointer;
+            }
+            #login:hover{
+                background:rgb(153, 214, 214);
+                opacity: 0.6;
+                    }
+            .footer{
+              margin-top: 0.4cm;
+              text-align: center;
+              line-height: 3;
+                 }
+                 .button{
+                    background: rgb(175, 172, 172);
+                    font-size: 17px;
+                    border-radius: 5px;
+                    border-color: rgb(177, 183, 188);
+                    height: 0.9cm;
+                    width: 2.5cm;
+                    cursor: pointer;
+                    }
+                    .button:hover{
+                        background:rgb(153, 214, 214);
+                        opacity: 0.6;
+                        }
+                        .p_confirm{
+                            display: flex;
+                            width: 4cm;
+                            word-wrap: break-word;
+                            line-height: 1;
+                            margin-left: 1.4cm;
+                            margin-top: 10px;
+                            font-size: 19px;
+                            }
+                            #checkbox{
+                                height: 20px;
+                                width: 18px;
+                                }
+                                .footer{
+                                display: flex;
+                                text-align: center;
+                                justify-content: center;
+                                    }
+                                    .end{
+                                    color: blue;
+                                    opacity: 0.5;
+                                    cursor: pointer;
+                                        }
